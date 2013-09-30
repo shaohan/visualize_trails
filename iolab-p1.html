@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Visualize Trails</title>
+	<link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+	<div id="container">
+		<header>
+			<a href="iolab-p1.html"><img src="icon.png" alt="delicious_logo">
+			<h1>Visualize Trails!</h1></a>
+		</header>
+		<div id="main">
+			<div id="left">
+				<form id="loadBookmarks" name="loadBookmarks" method="get">
+                    <p>
+                    	<label>&nbsp;Username :</label> 
+                    	<input type="text" name="user" id="sourceUser" value="kamebkj">
+                    </p>
+                    <input type="submit" class="submitBtn" value="Go!">
+                </form>
+			</div><!-- left -->
+
+			<div id="right">
+                <div id="bookmarks"></div>
+                <div id="bookmark-links"><ol></ol></div>
+			</div><!-- right -->
+		</div><!-- main -->
+	</div><!-- container -->
+
+	<!-- js files -->
+	<script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+	<script src="main.js" type="text/javascript"></script>
+</body>
+
+</html>
